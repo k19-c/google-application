@@ -12,7 +12,7 @@ export const reducer = (state, action) => {
 
     switch (action.type) {
         case actionTypes.SET_SEARCH_TERM:
-        
+        console.log("RES", state);
         return {
             ...state,
             term: action.term,

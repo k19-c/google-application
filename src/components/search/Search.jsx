@@ -4,8 +4,8 @@ import SearchIcon from "@material-ui/icons/Search";
 import MicIcon from "@material-ui/icons/Mic";
 import { Button } from "@material-ui/core";
 import { useNavigate } from 'react-router-dom';
-import { useStateValue } from '../StateProvider';
-import { actionTypes } from '../reducer';
+import { useStateValue } from '../../StateProvider';
+import { actionTypes } from '../../reducer';
 
 const Search = (props) => {
     const{ hideButtons = false } = props;
